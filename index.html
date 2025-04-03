@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>💤 Track your sleep! - Matthew Nakao</h1>
+    <p>How long did you sleep last night?</p>
+    <input type="text" id="nightSleep" placeholder="Put your hours">
+    <p>Did you wake up in between?</p>
+    <input type="text" id="didTheyWakeUp" placeholder="if so, how long (0 if no)">
+    <p>Did you take any naps?</p>
+    <input type="text" id="nap" placeholder="If so, how many hours">
+    <p></p>
+    <button onclick="checkHours()">Submit</button>
+    <h2 id="hoursMsg"></h2>
+    <script src="script.js"></script>
+</body>
+</html>

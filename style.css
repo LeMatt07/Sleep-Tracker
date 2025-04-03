@@ -1,0 +1,19 @@
+body{
+    background-color: #f8fcff;
+    text-align: center;
+    padding: 30px;
+}
+p{
+    font-size: 25px;
+}
+#nightSleep, #didTheyWakeUp, #nap{
+    font-size: 20px;
+}
+button{
+    font-size: 25px;
+    color: rgb(36, 247, 243);
+    background-color: rgb(60, 179, 253);
+    padding: 10px;
+    border-radius: 30%;
+    cursor: pointer;
+}
